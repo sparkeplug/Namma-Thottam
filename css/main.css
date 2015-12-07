@@ -12,9 +12,6 @@ section,
 button,
 input,
 div,
-h1,
-h2,
-h3,
 h4,
 h5,
 h6
@@ -93,6 +90,7 @@ h3
     margin: 0 auto;
 
     -webkit-transition: text-shadow 1s;
+
             transition: text-shadow 1s;
 
     text-shadow: 1px 1px 20px rgb(0, 0, 0);

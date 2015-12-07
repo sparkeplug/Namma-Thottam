@@ -1,4 +1,4 @@
-(function(){
+(function () {
 angular.module("NammaThottam")
     .config(function($routeProvider){
         $routeProvider.when('/Home',{

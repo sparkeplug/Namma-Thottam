@@ -1,1 +1,1 @@
-angular.module("NammaThottam",['ngRoute']);
+angular.module("NammaThottam", ['ngRoute']);
