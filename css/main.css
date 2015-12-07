@@ -1,0 +1,273 @@
+/*-------------------GLOBAL-----------------------------*/
+html,
+body,
+head,
+ul,
+ol,
+li,
+a,
+header,
+footer,
+section,
+button,
+input,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}
+body
+{
+    font-family: sans-serif;
+
+    overflow-x: hidden;
+
+    max-width: 100%;
+    height: 100%;
+}
+a
+{
+    text-decoration: none;
+
+    color: white;
+}
+h1
+{
+    font-size: 40px;
+}
+h2
+{
+    font-size: 20px;
+}
+h3
+{
+    font-size: 10px;
+}
+.text_Shadow
+{
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+.wrapper
+{
+    width: auto;
+}
+
+
+/*-------------------HEADER------------------------*/
+.header
+{
+    position: fixed;
+    z-index: 5;
+
+    display: block;
+
+    width: 100%;
+    height: 80px;
+    margin-bottom: 1px solid black;
+
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(150, 255, 0,.6);
+    -webkit-box-shadow: 0 2px 20px 1px black;
+       -moz-box-shadow: 0 2px 20px 1px black;
+            box-shadow: 0 2px 20px 1px black;
+}
+.company_Logo
+{
+    display: block;
+
+    width: -webkit-fit-content;
+    width:    -moz-fit-content;
+    width:         fit-content;
+    height: inherit;
+    max-height: 50%;
+    margin: 0 auto;
+
+    -webkit-transition: text-shadow 1s;
+            transition: text-shadow 1s;
+
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+.company_Logo:hover
+{
+    text-shadow: 2px 2px 10px rgb(247, 185, 23);
+}
+.nav{
+    display: block;
+    height: inherit;
+    max-height: 50%;
+    position: relative;
+    bottom: 0;
+}
+.nav_List
+{
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: -webkit-fit-content;
+
+    margin: 0 auto;
+
+    color: rgb(255, 255, 255);
+    border: 600px;
+}
+.header .nav > li
+{
+    position: relative;
+
+    display: inline;
+
+    margin: 0 20px;
+
+    transform: translateY(-50%);
+    text-align: center;
+
+    color: white;
+    text-shadow: 1px 1px 20px rgb(69, 168, 23);
+}
+.header .nav a
+{
+    font-size: 20px;
+
+    height: 200px;
+}
+ul:nth-child(3)
+{
+    position: relative;
+
+    width: -webkit-fit-content;
+    width:    -moz-fit-content;
+    width:         fit-content;
+}
+li ul
+{
+    top: 26px;
+    left: 0;
+
+    display: none;
+
+    width: inherit;
+
+    list-style: none;
+
+    background-color: rgba(255, 255, 255, .5);
+}
+li ul > li
+{
+    margin: 5px 20px;
+}
+li:hover ul
+{
+    position: absolute;
+
+    display: block;
+}
+
+
+/*-----------------------FOOTER-----------------------*/
+.footer
+{
+    position: relative;
+
+    display: block;
+
+    height: 50px;
+    margin-top: 1px solid black;
+
+    text-align: center;
+
+    background-color: rgba(224, 224, 224, .7);
+    -webkit-box-shadow: 0 -2px 20px 1px black;
+       -moz-box-shadow: 0 -2px 20px 1px black;
+            box-shadow: 0 -2px 20px 1px black;
+}
+.nt_Footer
+{
+    position: relative;
+    top: 10px;
+
+    display: inline-block;
+}
+
+/*----------------------HOME BANNER CONTENT------------------------*/
+.home_Banner
+{
+    display: block;
+
+    height: 626px;
+
+    background-color: rgba(228, 195, 52, .64);
+    background-image: url('../Images/Home banner.jpg');
+    background-position: center;
+    background-size: cover;
+
+    background-blend-mode: multiply;
+}
+.home_info
+{
+    position: relative;
+    top: 30%;
+
+    display: block;
+
+    text-align: center;
+
+    color: white;
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+.home_info button
+{
+    font-size: 30px;
+    font-weight: bolder;
+
+    position: absolute;
+    top: 200px;
+    left: 50%;
+
+    display: block;
+
+    margin: 0 auto;
+    padding: 10px 40px;
+
+    transition: all .5s;
+    transform: translateX(-50%);
+
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .7);
+}
+.home_info button:hover
+{
+    background-color: rgba(150, 255, 0, .7);
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+.home_LearnMore
+{
+    position: absolute;
+    bottom: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 50px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+}
+.home_LearnMore p
+{
+    display: inline-block;
+}
+
+/*-------------------------HOME INFO CONTENT----------------------------*/

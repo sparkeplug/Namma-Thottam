@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NammaThottam</title>
+        <meta charset="utf-8">
+
+
+    </head>
+    <body ng-app="NammaThottam">
+        <div class="wrapper">
+                <header class="header">
+                    <h1 class="company_Logo">NAMMA THOTTAM</h1>
+                    <div class="nav">
+                        <ul class="nav_List">
+                            <li><a href="#/Home">HOME</a></li>
+                            <li><a href="#">WHY ORGANIC</a></li>
+                            <li>
+                                <a href="#">PRODUCTS</a>
+                                <ul>
+                                    <li><a href="#/Fruits">Fruits</a></li>
+                                    <li><a href="#/Vegetables">Vegetables</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#/Contact_Us">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                </header>
+                <div ng-view>
+
+                </div>
+                <footer class="footer">
+                    <div class="nt_Footer">
+                        <h3>Namma thottam 2015</h3>
+                    </div>
+                </footer>
+        </div>
+
+        <!--  CSS -->
+        <link href="./css/main.css" type="text/stylesheet" rel="stylesheet">
+
+        <!-- EXTERNAL DEPENDENCIES -->
+        <script src="./node_modules/angular/angular.min.js"></script>
+        <script src="./bower_components/angular-route/angular-route.min.js"></script>
+        <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+        <!-- CUSTOM DEPENDENCIES -->
+        <script src="./javascript/app.js" type="text/javascript"></script>
+        <script src="./javascript/routes.js" type="text/javascript"></script>
+        <script src="http://localhost:35729/livereload.js"></script>
+    </body>
+</html>
